@@ -1,0 +1,18 @@
+# Contoh isi .gitignore
+# Abaikan file build dan output
+/dist/
+/build/
+
+# Abaikan file konfigurasi lokal
+.env
+.env.local
+
+# Abaikan file log
+*.log
+
+# Abaikan node_modules untuk proyek Node.js
+node_modules/
+
+# Abaikan file sistem
+.DS_Store
+Thumbs.db
